@@ -18,7 +18,7 @@ describe("primer grupo de test", () => {
     test("prueba 1", () => {
         const premium = 3;
         const economy = 3;
-
+        
         expect(true).toBe(true)
         expect(algoritmo(clientes, premium, economy)).toEqual([738, 167])
     })
