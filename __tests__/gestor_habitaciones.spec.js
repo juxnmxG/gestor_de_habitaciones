@@ -16,11 +16,14 @@ const clientes = [
 
 describe("primer grupo de test", () => {
     test("prueba 1", () => {
-        const premium = 3;
-        const economy = 3;
-        
+        const premium = 7;
+        const economy = 1;
+
         expect(true).toBe(true)
-        expect(algoritmo(clientes, premium, economy)).toEqual([738, 167])
+        //expect(algoritmo(clientes, premium, economy)).toEqual([738, 167])
+        //expect(algoritmo(clientes, premium, economy)).toEqual([1054, 189])
+        //expect(algoritmo(clientes, premium, economy)).toEqual([583, 189])
+        expect(algoritmo(clientes, premium, economy)).toEqual([1153, 45])
     })
 })
 
